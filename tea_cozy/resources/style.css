@@ -1,0 +1,274 @@
+body {
+  font-size: 22px;
+  font-family: helvetica, sans-serif;
+  color:seashell;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav {
+  border: 1px solid seashell;
+  display: flex;
+  background-color: black;
+  height: 69px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  align-items: center;
+  z-index: 3;
+}
+
+.logo {
+  /* border: 1px solid blue;*/
+  height: 50px;
+  padding: 10px;
+}
+
+.nav_links {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  justify-content: flex-end;
+
+}
+
+.nav_links a {
+  padding: 10px;
+  margin: 10px;
+  font-size: 22px;
+  font-family: helvetica, sans-serif;
+  color:seashell;
+}
+
+.top_container {
+  /* border: 1px solid blue;*/
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width:1200px;
+  position: relative;
+  top:63px;
+  display: flex;
+  align-items: center;
+}
+
+.banner {
+  background-color: black;
+  width: 1200px;
+  height: 100px;
+}
+
+.banner h2 {
+  /* border: 1px solid blue;*/
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.banner h4 {
+  /* border: 1px solid blue;*/
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.middle_container {
+  /* border: 1px solid blue;*/
+  width: 1000px;
+  display: flex;
+  position: relative;
+  top:60px;
+  justify-content: center;
+}
+.middle_container h2 {
+  /* border: 1px solid blue;*/
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.middle_container h4 {
+  /* border: 1px solid blue;*/
+  text-align: center;
+}
+
+.tea_products {
+  /* border: 1px solid blue;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+
+}
+
+.berry {
+  /* border: 1px solid blue;*/
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg");
+  width:300px;
+  height:200px;
+  background-size: contain;
+  margin: 10px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.tea_products h4 {
+  background-color: black;
+  width: 100%;
+  position: relative;
+  margin-top: 70%;
+
+
+
+}
+
+.rum {
+  /* border: 1px solid blue;*/
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg");
+  width:300px;
+  height:200px;
+  background-size: contain;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.donuts {
+  /* border: 1px solid blue;*/
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg");
+  width:300px;
+  height:200px;
+  background-size: contain;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.myrtle {
+  /* border: 1px solid blue;*/
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg");
+  width:300px;
+  height:200px;
+  background-size: contain;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bedford {
+  /* border: 1px solid blue;*/
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg");
+  width:300px;
+  height:200px;
+  background-size: contain;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bottom_container {
+  /* border: 1px solid blue;*/
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  display: flex;
+  position: absolute;
+  width: 1200px;
+  height: 600px;
+  top: 800px;
+  background-size: contain;
+  background-position: center;
+  background-size: 110% 150%;
+  background-position: -100px -40px;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.location_title {
+  position: absolute;
+  top: 30px;
+}
+
+.locations{
+  /* border: 1px solid blue;*/
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position:absolute;
+  top: 115px;
+
+
+
+}
+
+.location_downtown {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  flex-direction: column;
+  margin:20px;
+  text-align: center;
+  opacity: 1;
+
+
+}
+
+.location_eastbay {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  flex-direction: column;
+  margin:20px;
+  margin-left: -150px;
+  margin-right: -150px;
+  text-align: center;
+  opacity: 1;
+
+
+}
+
+.location_oakdale {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    margin:20px;
+    text-align: center;
+    opacity: 1;
+
+  }
+
+  footer {
+    display: flex;
+    /* border: 1px solid blue;*/
+    background-color: black;
+    height: 200px;
+    width: 1200px;
+    position: absolute;
+    top: 1400px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer_container h2{
+    margin: 10px;
+  }
+
+.copy {
+  display: flex;
+  /* border: 1px solid blue;*/
+  position:absolute;
+  top: 100%;
+  left: 0px;
+}
